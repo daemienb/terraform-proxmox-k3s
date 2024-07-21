@@ -26,8 +26,8 @@ provider proxmox {
 }
 
 module "k3s" {
-  source  = "fvumbaca/k3s/proxmox"
-  version = ">= 0.0.0, < 1" # Get latest 0.X release
+  source  = "oobenland/k3s/proxmox"
+  version = "0.1.4"
 
   authorized_keys_file = "authorized_keys"
 
